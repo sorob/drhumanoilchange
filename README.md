@@ -18,6 +18,14 @@ On the site he signed the work **Al Aguirre, Ph., NMD, PhD**. The letterhead in 
 
 He described a life spent on nutritional medicine and biochemical laboratory follow-up, and a practice he moved onto the internet so the method could be taught from a computer rather than carried only in one office. The essays under `LabCalc/HTMLS/` and `LabCalc/BasicDiet.htm` are that teaching, in his wording. They are preserved as a record of how he explained the work.
 
+## What he wrote on his public profile
+
+His LinkedIn profile, [Dr. Al Aguirre](https://www.linkedin.com/in/dr-al-aguirre-08672650), lists him as Medical Director in Redding, California. In the About section he wrote that he had been studying and practicing natural medicine for over fifty years, specializing in “Nutritional Biochemical Analysis,” and pointed readers to the results of an “Interactive Computer Health Program.” He gave two addresses for that work: [www.BloodBalance.com](http://www.BloodBalance.com) and DrHumanOilChange.com, and said to use Contact Us. He also described a therapy he named GH6x, a buffering system he called six times stronger than GH3 and ten times more effective, made with natural therapeutic agents. That description is his own.
+
+The Education section lists the University of Wyoming, 1968–1971, a Bachelor of Applied Science in Microbiology & Pharmacy, marked Graduate School. He wrote that the degrees were earned with honor. He listed himself as president of the Rho Chi Honor Society and entertainment director for Phi Delta Chi. On the same entry he added a doctorate in natural medicine from the NCNM school, a doctorate in clinical psychology from Brighton University, and four years of teaching at the National College of Naturopathic Medicine. The public text ends in the middle of that teaching note.
+
+Under Skills he listed U.S. military training as a medic, pharmacy specialist, and medical specialist in compounding, and work as a food scientist and head of research and development.
+
 ## What the application did
 
 This folder is the deployed ASP.NET 4 site, precompiled for Internet Information Services. Most `.aspx` files are precompilation markers. The application logic is in the assemblies under `bin/`, especially `App_Code.dll`. The original project source is not in this copy.
