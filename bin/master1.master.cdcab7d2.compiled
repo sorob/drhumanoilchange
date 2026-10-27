@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/master1.master" hash="fffffffbb2e93461" filehash="f8052421fc86cfae" flags="100000" assembly="App_Web_master1.master.cdcab7d2" type="ASP.master1_master">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+    </filedeps>
+</preserve>

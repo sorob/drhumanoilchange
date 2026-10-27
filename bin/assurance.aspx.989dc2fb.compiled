@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/Services/Assurance.aspx" hash="fffffffbb2e93461" filehash="c951cc5f42d4211a" flags="100000" assembly="App_Web_assurance.aspx.989dc2fb" type="ASP.services_assurance_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/Services/Assurance.aspx" />
+        <filedep name="/DrHumanOilChange/Services/Assurance.aspx.vb" />
+    </filedeps>
+</preserve>

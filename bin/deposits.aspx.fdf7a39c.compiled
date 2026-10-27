@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/Admin/deposits.aspx" hash="fffffffbb2e93461" filehash="6296d27d2f7aef5d" flags="100000" assembly="App_Web_deposits.aspx.fdf7a39c" type="ASP.admin_deposits_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/Admin/deposits.aspx" />
+        <filedep name="/DrHumanOilChange/Admin/deposits.aspx.vb" />
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+    </filedeps>
+</preserve>

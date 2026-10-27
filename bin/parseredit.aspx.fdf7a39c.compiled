@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/Admin/ParserEdit.aspx" hash="fffffffbb2e93461" filehash="1f93dc393bd8e263" flags="100000" assembly="App_Web_parseredit.aspx.fdf7a39c" type="ASP.admin_parseredit_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/Admin/ParserEdit.aspx" />
+        <filedep name="/DrHumanOilChange/Admin/ParserEdit.aspx.vb" />
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+    </filedeps>
+</preserve>

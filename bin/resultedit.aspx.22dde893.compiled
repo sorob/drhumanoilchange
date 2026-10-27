@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/LabCalc/Edit/ResultEdit.aspx" hash="9aaaa5de6" filehash="56f9bcedc964d412" flags="100000" assembly="App_Web_resultedit.aspx.22dde893" type="ASP.labcalc_edit_resultedit_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/LabCalc/Edit/ResultEdit.aspx" />
+        <filedep name="/DrHumanOilChange/LabCalc/Edit/ResultEdit.aspx.vb" />
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+    </filedeps>
+</preserve>

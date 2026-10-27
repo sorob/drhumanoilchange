@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/FAQReader.aspx" hash="fffffffbb2e93461" filehash="894475a479fd92e4" flags="100000" assembly="App_Web_faqreader.aspx.cdcab7d2" type="ASP.faqreader_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/FAQReader.aspx" />
+        <filedep name="/DrHumanOilChange/FAQReader.aspx.vb" />
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/DrHumanOilChange/AutoComplete.asmx" hash="22025485" filehash="32ab55108d22" flags="130000" assembly="App_Code" type="AutoComplete">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/AutoComplete.asmx" />
+    </filedeps>
+</preserve>

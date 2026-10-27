@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/ChangePass.aspx" hash="fffffffbb2e93461" filehash="af383f251e426a7a" flags="100000" assembly="App_Web_changepass.aspx.cdcab7d2" type="ASP.changepass_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/ChangePass.aspx" />
+        <filedep name="/DrHumanOilChange/ChangePass.aspx.vb" />
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+    </filedeps>
+</preserve>

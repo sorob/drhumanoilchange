@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/Services/medlabst.aspx" hash="fffffffbb2e93461" filehash="fa611c749874478b" flags="100000" assembly="App_Web_medlabst.aspx.989dc2fb" type="ASP.services_medlabst_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+        <filedep name="/DrHumanOilChange/Services/medlabst.aspx" />
+        <filedep name="/DrHumanOilChange/Services/medlabst.aspx.vb" />
+    </filedeps>
+</preserve>

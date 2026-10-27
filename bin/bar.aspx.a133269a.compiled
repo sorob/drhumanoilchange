@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/LabCalc/bar.aspx" hash="9aaaa5de6" filehash="d77faf50e801f032" flags="100000" assembly="App_Web_bar.aspx.a133269a" type="ASP.labcalc_bar_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/LabCalc/bar.aspx" />
+        <filedep name="/DrHumanOilChange/LabCalc/bar.aspx.vb" />
+    </filedeps>
+</preserve>

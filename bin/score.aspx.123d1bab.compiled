@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/WAT/score.aspx" hash="fffffffbb2e93461" filehash="4817a750f8ad4bb3" flags="100000" assembly="App_Web_score.aspx.123d1bab" type="ASP.wat_score_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+        <filedep name="/DrHumanOilChange/WAT/score.aspx" />
+        <filedep name="/DrHumanOilChange/WAT/score.aspx.vb" />
+    </filedeps>
+</preserve>

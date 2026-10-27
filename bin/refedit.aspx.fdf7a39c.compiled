@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/Admin/RefEdit.aspx" hash="fffffffbb2e93461" filehash="d83a98db705fec71" flags="100000" assembly="App_Web_refedit.aspx.fdf7a39c" type="ASP.admin_refedit_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/Admin/RefEdit.aspx" />
+        <filedep name="/DrHumanOilChange/Admin/RefEdit.aspx.vb" />
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+    </filedeps>
+</preserve>

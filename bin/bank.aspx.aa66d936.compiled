@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/Financial/bank.aspx" hash="fffffffbb2e93461" filehash="8c0661380a182b9b" flags="100000" assembly="App_Web_bank.aspx.aa66d936" type="ASP.financial_bank_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/Financial/bank.aspx" />
+        <filedep name="/DrHumanOilChange/Financial/bank.aspx.vb" />
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+    </filedeps>
+</preserve>

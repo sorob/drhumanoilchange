@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/CR/GetReport.aspx" hash="fffffffbb2e93461" filehash="b31bed5c103a203b" flags="100000" assembly="App_Web_getreport.aspx.2bead82d" type="ASP.cr_getreport_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/CR/GetReport.aspx" />
+        <filedep name="/DrHumanOilChange/CR/GetReport.aspx.vb" />
+    </filedeps>
+</preserve>

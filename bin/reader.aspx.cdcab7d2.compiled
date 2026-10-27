@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/reader.aspx" hash="fffffffbb2e93461" filehash="6c06b4d7ce8979c5" flags="100000" assembly="App_Web_reader.aspx.cdcab7d2" type="ASP.reader_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+        <filedep name="/DrHumanOilChange/reader.aspx" />
+        <filedep name="/DrHumanOilChange/reader.aspx.vb" />
+    </filedeps>
+</preserve>

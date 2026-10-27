@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/WAT/aval.aspx" hash="fffffffbb2e93461" filehash="5da473cbaff6917d" flags="100000" assembly="App_Web_aval.aspx.123d1bab" type="ASP.wat_aval_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+        <filedep name="/DrHumanOilChange/WAT/aval.aspx" />
+        <filedep name="/DrHumanOilChange/WAT/aval.aspx.vb" />
+    </filedeps>
+</preserve>

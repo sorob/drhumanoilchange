@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/Admin/ratioEditor.aspx" hash="fffffffbb2e93461" filehash="3c44260d9f49ed1a" flags="100000" assembly="App_Web_ratioeditor.aspx.fdf7a39c" type="ASP.admin_ratioeditor_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/Admin/ratioEditor.aspx" />
+        <filedep name="/DrHumanOilChange/Admin/ratioEditor.aspx.vb" />
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+    </filedeps>
+</preserve>

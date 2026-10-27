@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/Admin/booklist.aspx" hash="fffffffbb2e93461" filehash="f4ab66107901ae29" flags="100000" assembly="App_Web_booklist.aspx.fdf7a39c" type="ASP.admin_booklist_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/Admin/booklist.aspx" />
+        <filedep name="/DrHumanOilChange/Admin/booklist.aspx.vb" />
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+    </filedeps>
+</preserve>

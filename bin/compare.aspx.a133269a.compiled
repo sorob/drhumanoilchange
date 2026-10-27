@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/LabCalc/compare.aspx" hash="9aaaa5de6" filehash="d413b7347f4298de" flags="100000" assembly="App_Web_compare.aspx.a133269a" type="ASP.labcalc_compare_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/LabCalc/compare.aspx" />
+        <filedep name="/DrHumanOilChange/LabCalc/compare.aspx.vb" />
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+    </filedeps>
+</preserve>

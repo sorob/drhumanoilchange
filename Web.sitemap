@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="Home Page"  description="Home">
+    <siteMapNode url="Products.aspx" title="Products"  description="">
+
+      <siteMapNode url="p6psych.aspx" title="P-6 Psych"  description="P-6 Psych Stress Tester" />
+
+    </siteMapNode>
+    <siteMapNode url="Services/default.aspx" title="Services"  description="">
+      <!--<siteMapNode url="services/medlabst.aspx" title="Medical Lab Testing"  description="" />-->
+      <siteMapNode url="services/Planframe.aspx" title="Health Assurance Explanation"  description="" />
+      <siteMapNode url="services/Family.aspx" title="Family Health Assurance Plan"  description="" >
+        <siteMapNode url="services/2p.aspx" title="Family Health Plan (2-Persons)"  description="" />
+        <siteMapNode url="services/2pRx.aspx" title="Family Health Plan (2-Persons) with Rx Plan"  description="" />
+
+      </siteMapNode>
+
+      <siteMapNode url="services/Plan.aspx" title="Health Assurance Plan"  description="" />
+
+
+    </siteMapNode>
+    <siteMapNode url="WAT/Default.aspx" title="WAT Test"  description=""/>
+    <siteMapNode url="Financial/bank.aspx" title="Add Funds"  description=""/>
+    <siteMapNode url="/LabCalc/Default.aspx" title="Online Lab"  description=""/>
+    <!--<siteMapNode url="Lab.aspx" title="Lab Results"  description=""/>-->
+    <siteMapNode url="Articles.aspx" title="Helpful Documents"  description=""/>
+    <siteMapNode url="FAQ.aspx" title="F.A.Q"  description=""/>
+    <siteMapNode url="About.aspx" title="About"  description=""/>
+    <siteMapNode url="Contact.aspx" title="Contact Us"  description=""/>
+    <siteMapNode url="admin/default.aspx?home=true" title="Website Manager"  description="">
+      <siteMapNode url="admin/default.aspx" title="Website Manager"  description=""/>
+      <siteMapNode url="admin/usermanager.aspx" title="Lab Users"  description=""/>
+      <siteMapNode url="admin/RefEdit.aspx" title="Test Refrence Editor"  description=""/>
+      <siteMapNode url="admin/MedMan.aspx" title="Treatment Editor"  description=""/>
+      <siteMapNode url="admin/ParserEdit.aspx" title="Edit Parser DB"  description=""/>
+      <siteMapNode url="admin/deposits.aspx" title="View Submitted Deposits"  description=""/>
+      <siteMapNode url="admin/booklist.aspx" title="Edit Book references for Tests"  description=""/>
+        <siteMapNode url="admin/packageEditor.aspx" title="Edit Test Packages"  description=""/>
+        <siteMapNode url="admin/deleteUsers.aspx" title="Remove Users and Data"  description=""/>
+        <siteMapNode url="admin/ratioEditor.aspx" title="Ratio Logic Editor"  description=""/>
+        
+
+    </siteMapNode>
+  </siteMapNode>
+
+</siteMap>

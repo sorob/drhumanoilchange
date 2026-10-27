@@ -1,0 +1,10 @@
+# SQL Server files from the live health application
+App_Data/*.ldf
+App_Data/*.mdf
+*.ldf
+*.mdf
+
+# Vendor installer, not part of the authored site
+Files/CRRedist2008_x86.msi
+
+.DS_Store

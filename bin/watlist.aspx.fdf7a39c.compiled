@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DrHumanOilChange/Admin/watList.aspx" hash="fffffffbb2e93461" filehash="294cde0e12611df0" flags="100000" assembly="App_Web_watlist.aspx.fdf7a39c" type="ASP.admin_watlist_aspx">
+    <filedeps>
+        <filedep name="/DrHumanOilChange/Admin/watList.aspx" />
+        <filedep name="/DrHumanOilChange/Admin/watList.aspx.vb" />
+        <filedep name="/DrHumanOilChange/master1.master" />
+        <filedep name="/DrHumanOilChange/master1.master.vb" />
+    </filedeps>
+</preserve>
