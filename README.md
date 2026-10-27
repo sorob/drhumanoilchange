@@ -1,6 +1,8 @@
 # Dr. Human Oil Change
 
-An archival copy of the website and web application of **Albert “Al” Aguirre**, kept so the work can still be read.
+An archival copy of the website and web application of **Dr. Albert William Aguirre**, kept so the work can still be read.
+
+[Find a Grave memorial 163344172](https://www.findagrave.com/memorial/163344172/albert_william-aguirre) records him as Dr. Albert William Aguirre, born January 10, 1944, in Fresno, Fresno County, California, and died in November 2013 in Redding, Shasta County, California, at the age of 69. The burial place is listed as unknown. The memorial names his parents, Joseph L. Aguirre (1915–2003) and Beatrice C. Aguirre (1925–2002), and cites a California marriage index entry for his marriage to Margaret A. Coleman on August 12, 1964, in Fresno. Lester Letson added the memorial on May 26, 2016.
 
 His obituary was published by the *Fresno Bee* on January 12, 2014:
 
@@ -8,11 +10,11 @@ His obituary was published by the *Fresno Bee* on January 12, 2014:
 
 The notice that remains on that page is short. It says, “We will miss you. Your Family and Friends.”
 
-This repository is the server copy of [drhumanoilchange.com](http://www.drhumanoilchange.com), also called Human Oil Change. The files date from December 2005 through October 29, 2013, a few months before that notice. It is the site as it stood near the end of his life: the teaching pages, the lab program, and the tools around them.
+This repository is the server copy of [drhumanoilchange.com](http://www.drhumanoilchange.com), also called Human Oil Change. The files date from December 2005 through October 29, 2013. The newest page is from the month before the death recorded on his memorial. It is the site as it stood at the end of his life: the teaching pages, the lab program, and the tools around them.
 
 ## Who he was, in his own pages
 
-The site names him **Al Aguirre, Ph., NMD, PhD**. The letterhead in the teaching pages places the work under NaturChem Health Systems, with a California branch in Redding, an Oregon branch in Portland, and Audrey’s Health Retreat in San Blas, Nayarit. The same pages point to HumanOilChange.com and NaturChem.com, and to Doctor’s Health Assurance Plan.
+On the site he signed the work **Al Aguirre, Ph., NMD, PhD**. The letterhead in the teaching pages places the work under NaturChem Health Systems, with a California branch in Redding, an Oregon branch in Portland, and Audrey’s Health Retreat in San Blas, Nayarit. The same pages point to HumanOilChange.com and NaturChem.com, and to Doctor’s Health Assurance Plan.
 
 He described a life spent on nutritional medicine and biochemical laboratory follow-up, and a practice he moved onto the internet so the method could be taught from a computer rather than carried only in one office. The essays under `LabCalc/HTMLS/` and `LabCalc/BasicDiet.htm` are that teaching, in his wording. They are preserved as a record of how he explained the work.
 
