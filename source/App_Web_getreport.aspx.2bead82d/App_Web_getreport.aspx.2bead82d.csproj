@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>App_Web_getreport.aspx.2bead82d</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic">
+      <HintPath>../../../../../.dotnet/shared/Microsoft.NETCore.App/10.0.14/Microsoft.VisualBasic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>../../../../../.dotnet/shared/Microsoft.NETCore.App/10.0.14/System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="CrystalDecisions.Web" />
+    <Reference Include="CrystalDecisions.Shared" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine" />
+    <Reference Include="System.Configuration">
+      <HintPath>../../../../../.dotnet/shared/Microsoft.NETCore.App/10.0.14/System.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>../../../../../.dotnet/shared/Microsoft.NETCore.App/10.0.14/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource" />
+    <Reference Include="App_Code">
+      <HintPath>bin/App_Code.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>../../../../../.dotnet/shared/Microsoft.NETCore.App/10.0.14/System.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

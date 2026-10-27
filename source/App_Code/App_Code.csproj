@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>App_Code</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic">
+      <HintPath>../../../../../.dotnet/shared/Microsoft.NETCore.App/10.0.14/Microsoft.VisualBasic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>../../../../../.dotnet/shared/Microsoft.NETCore.App/10.0.14/System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Data">
+      <HintPath>../../../../../.dotnet/shared/Microsoft.NETCore.App/10.0.14/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>../../../../../.dotnet/shared/Microsoft.NETCore.App/10.0.14/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>../../../../../.dotnet/shared/Microsoft.NETCore.App/10.0.14/System.Data.DataSetExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Configuration">
+      <HintPath>../../../../../.dotnet/shared/Microsoft.NETCore.App/10.0.14/System.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+  </ItemGroup>
+</Project>

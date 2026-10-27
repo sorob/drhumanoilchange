@@ -28,7 +28,11 @@ Under Skills he listed U.S. military training as a medic, pharmacy specialist, a
 
 ## What the application did
 
-This folder is the deployed ASP.NET 4 site, precompiled for Internet Information Services. Most `.aspx` files are precompilation markers. The application logic is in the assemblies under `bin/`, especially `App_Code.dll`. The original project source is not in this copy.
+This folder is the deployed ASP.NET 4 site, precompiled for Internet Information Services. Most `.aspx` files are precompilation markers. The compiled application is in `bin/`, including `App_Code.dll` and one `App_Web_*.dll` for each page. Those application assemblies are also recovered as C# under `source/`.
+
+The deployed code was VB.NET. `source/` is an ILSpy reconstruction of that IL, so names, `My.MyProject`, and `Microsoft.VisualBasic.CompilerServices` calls show the original language, while the files themselves are C#. `source/App_Code` holds the shared types: lab datasets, WAT, orders, user info, the service, and `Utilities`. Each `source/App_Web_*` folder is one precompiled page, with the control tree the compiler generated from the markup.
+
+The other files in `bin/` are the libraries the site was deployed with: the Ajax Control Toolkit, iText, Crystal Reports components, PayPal controls, BouncyCastle, FreeTextBox, ConwayControls, Sahil.WebControls, and Validators. Those stay as the binaries he shipped.
 
 `Web.sitemap` is the map of the running site:
 
