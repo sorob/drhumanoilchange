@@ -94,4 +94,6 @@ Database and mail passwords in `Web.config` were replaced with `REDACTED`. The o
 
 Start with the reading room, [sorob.github.io/drhumanoilchange](https://sorob.github.io/drhumanoilchange/). It opens with his bio and lists the 31 blog entries saved between May 30 and December 11, 2007. Each entry is its own page under `docs/posts/`. The source of those pages is `tables.blog` in `data/drhuman_no_patient.json`.
 
+The reading room publishes a [sitemap](https://sorob.github.io/drhumanoilchange/sitemap.xml), `robots.txt` that allows search and language-model crawlers, and [llms.txt](https://sorob.github.io/drhumanoilchange/llms.txt), a plain-text map of the biography and every writing. Each page has a description, a canonical address, and structured data naming Albert William Aguirre as the author.
+
 `LabCalc/BasicDiet.htm` and the numbered essays in `LabCalc/HTMLS/` are the longer teaching pages. Use `Web.sitemap` for the menu of the old application. `source/App_Code/Labstuff.cs` is the data model of the lab. `tables.Rx` in the JSON file is the advice those screens looked up.
