@@ -35,9 +35,10 @@ Under Skills he listed U.S. military training as a medic, pharmacy specialist, a
 | `bin/` | The precompiled ASP.NET 4 site, including `App_Code.dll` and one `App_Web_*.dll` per page |
 | `source/` | Those application assemblies, decompiled so the logic can be read |
 | `Files/` | Reference spreadsheets for tests, costs, and book references |
+| `data/drhuman_no_patient.json` | The advice rules, reference ranges, WAT words, packages, and blog articles from the SQL backup |
 | `Web.config` | The IIS configuration, with passwords replaced by `REDACTED` |
 
-The site expected Internet Information Services, SQL Server, ASP.NET membership, Crystal Reports, and PayPal controls. The HTML essays open in a browser. The logged-in lab needs the database of accounts and results, and that database is not in this archive.
+The site expected Internet Information Services, SQL Server, ASP.NET membership, Crystal Reports, and PayPal controls. The HTML essays open in a browser. Individual accounts and lab results are not in this archive. The rules those results were compared against are in `data/drhuman_no_patient.json`.
 
 `bin/` also contains the libraries the site was deployed with: the Ajax Control Toolkit, iText, Crystal Reports components, PayPal controls, BouncyCastle, FreeTextBox, ConwayControls, Sahil.WebControls, and Validators. Those remain the binaries he shipped. `source/` is only the application.
 
@@ -70,6 +71,16 @@ Inside each `source/App_Web_*` folder:
 
 The lab pages follow the sequence he wrote in `LabCalc/HTMLS/pr.htm`: history, complaints, prior tests, blood type and diet, stress tests, blood chemistry, a supplement and food plan, exercise, and a recheck. The admin editors are where reference ranges, treatments, the parser, book references, test packages, and ratio logic were maintained.
 
+## The advice data
+
+`data/drhuman_no_patient.json` is the reference half of a full backup of the `drhuman` database. SQL Server 2008 R2 Express on `TELEVIZIOON\SQLEXPRESS` wrote that backup on March 6, 2014. The file is one JSON object. `tables` holds the rows. `omitted` names every table that was left out, with the row count and the reason.
+
+The advice itself is `tables.Rx`, 589 rows. A row is a test abbreviation (`Abrev`), whether the result is `High` or `Low`, a product, a dose, a company (`Co`), a body part, a gender, and `minScale2Show`, the distance from the reference range required before that line is shown. `CPRx` does the same for a calcium/phosphorus ratio between `minCP` and `maxCP`. `TPR` does it for a total-protein value between `min` and `max`.
+
+The ranges those rules use are in `TestRef` (doctor ranges and medical ranges, by test and sex) and `MaleRF`. `ratioRef` names which two tests form a ratio. `grp` groups tests. `package` and `packagedata` are the panels and the tests inside them. `testbookref` is the book, author, page, and note for a test. `mainWord` and `choiceWord` are the WAT word list and the score for each answer. `ScRanges` maps a score to a report band. `blog` is the 31 articles, with the account name that posted them removed. Two of his own published addresses, `dralaguirre2@aol.com` and `dralaguirre@netscape.net`, remain inside that article text.
+
+These tables were left out because they identify people or store their results: `UserInfo` (227 rows, including names, addresses, phone numbers, birth dates, and Social Security numbers), `aspnet_Membership` and `aspnet_Users` (222 accounts, emails, and password hashes), `ResultRef` (16,470 lab results), `Tests`, `txtimp`, `complaints`, `testInstance`, `testWordInstance`, `gotadvice`, `Funds`, `deposits`, `download`, and the PayPal table `ahn`. That full export stays off this repository.
+
 ## What was left out of the public copy
 
 Database and mail passwords in `Web.config` were replaced with `REDACTED`. The old server names and database names remain, so the shape of the system is visible. The decompiled pages call those connection-string names. They do not contain the passwords.
@@ -80,4 +91,4 @@ Database and mail passwords in `Web.config` were replaced with `REDACTED`. The o
 
 ## Reading the archive
 
-Start with `LabCalc/BasicDiet.htm` and the numbered essays in `LabCalc/HTMLS/` for his voice. Use `Web.sitemap` for the menu. Use the table above when you want the program behind a screen. `source/App_Code/Labstuff.cs` is the data model of the lab.
+Start with `LabCalc/BasicDiet.htm` and the numbered essays in `LabCalc/HTMLS/` for his voice. Use `Web.sitemap` for the menu. Use the table above when you want the program behind a screen. `source/App_Code/Labstuff.cs` is the data model of the lab. `data/drhuman_no_patient.json` is the advice those screens looked up, beginning with `tables.Rx`.

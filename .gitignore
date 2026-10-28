@@ -8,3 +8,6 @@ App_Data/*.mdf
 Files/CRRedist2008_x86.msi
 
 .DS_Store
+
+# Full database export, including accounts and lab results
+drhuman_full.json
