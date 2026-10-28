@@ -36,6 +36,7 @@ Under Skills he listed U.S. military training as a medic, pharmacy specialist, a
 | `source/` | Those application assemblies, decompiled so the logic can be read |
 | `Files/` | Reference spreadsheets for tests, costs, and book references |
 | `data/drhuman_no_patient.json` | The advice rules, reference ranges, WAT words, packages, and blog articles from the SQL backup |
+| `docs/` | GitHub Pages reading room: his bio and the 31 blog entries |
 | `Web.config` | The IIS configuration, with passwords replaced by `REDACTED` |
 
 The site expected Internet Information Services, SQL Server, ASP.NET membership, Crystal Reports, and PayPal controls. The HTML essays open in a browser. Individual accounts and lab results are not in this archive. The rules those results were compared against are in `data/drhuman_no_patient.json`.
@@ -91,4 +92,6 @@ Database and mail passwords in `Web.config` were replaced with `REDACTED`. The o
 
 ## Reading the archive
 
-Start with `LabCalc/BasicDiet.htm` and the numbered essays in `LabCalc/HTMLS/` for his voice. Use `Web.sitemap` for the menu. Use the table above when you want the program behind a screen. `source/App_Code/Labstuff.cs` is the data model of the lab. `data/drhuman_no_patient.json` is the advice those screens looked up, beginning with `tables.Rx`.
+Start with the reading room, [sorob.github.io/drhumanoilchange](https://sorob.github.io/drhumanoilchange/). It opens with his bio and lists the 31 blog entries saved between May 30 and December 11, 2007. Each entry is its own page under `docs/posts/`. The source of those pages is `tables.blog` in `data/drhuman_no_patient.json`.
+
+`LabCalc/BasicDiet.htm` and the numbered essays in `LabCalc/HTMLS/` are the longer teaching pages. Use `Web.sitemap` for the menu of the old application. `source/App_Code/Labstuff.cs` is the data model of the lab. `tables.Rx` in the JSON file is the advice those screens looked up.
